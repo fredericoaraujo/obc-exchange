@@ -4,5 +4,7 @@
   },
   "name": "obc-exchange",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "tether": "^1.4.5"
+  }
 }
