@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": ">=6"
+  },
   "name": "obc-exchange",
   "private": true,
   "dependencies": {}
