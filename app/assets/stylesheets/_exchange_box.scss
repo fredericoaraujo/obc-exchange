@@ -4,7 +4,7 @@
     border: 0;
 
     .card-header{
-      background-color: #878d99;
+      background-color: #2196f3;
       border-radius: 0;
       color: white;
       font-weight: 700;
@@ -15,7 +15,7 @@
       padding: 20px;
 
       .title{
-        color: #878d99;
+        color: #2196f3;
         font-weight: 700;
       }
 
@@ -23,6 +23,12 @@
         background-color: #5bc0de;
         border-color: #5bc0de;
         border-radius: 0;
+      }
+
+      .value_exchange {    
+        color: #2196f3;
+        font-size: 30px;
+        font-weight: 500;
       }
     }
   }

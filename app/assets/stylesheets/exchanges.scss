@@ -1,9 +1,10 @@
 body {
-  background: image-url("/background-img.jpg") no-repeat center center fixed;
+  background: image-url("/background-custom.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main{
@@ -12,7 +13,7 @@ body {
 
 
 .title-box{
-  margin-top: 20%;
+  margin-top: 15%;
 
   .title{
     color: white;
@@ -20,11 +21,18 @@ body {
   }
 
   .subtitle{
-    color: white;
-    text-shadow: 3px 0px 3px #000000;
-    font-size: 30px;
+    color: #cccccc;
+    text-shadow: 1px 0px 1px #000000;
+    font-size: 40px;
+    font-family: 'Aleo', serif;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  p {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 18px;
   }
 }
 
